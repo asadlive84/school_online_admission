@@ -2,14 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91e0ef77-727f-4faf-92ef-cf3f1626765f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adminTools/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminTools/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminTools/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0002_auto_20191210_1959.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0003_auto_20191210_2004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0004_auto_20191210_2108.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0005_auto_20191210_2238.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0006_auto_20191210_2241.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0007_auto_20191210_2244.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/admission_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/admission_detail_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/admission_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/static/css/admission_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FulhataSchool/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FulhataSchool/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FulhataSchool/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FulhataSchool/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +69,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -78,7 +126,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575985951279</updated>
-      <workItem from="1575985971023" duration="554000" />
+      <workItem from="1575985971023" duration="7095000" />
+      <workItem from="1575998950592" duration="1331000" />
+      <workItem from="1576005246213" duration="12752000" />
     </task>
     <servers />
   </component>
@@ -89,21 +139,29 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1277" height="175" key="GridCell.Tab.0.bottom" timestamp="1575986531451">
+    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576001369785">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state width="1277" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741@43.27.1323.741" timestamp="1575986531451" />
-    <state width="1277" height="175" key="GridCell.Tab.0.center" timestamp="1575986531450">
+    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl/43.27.1323.741@43.27.1323.741" timestamp="1576001369785" />
+    <state width="1277" height="175" key="GridCell.Tab.0.bottom" timestamp="1576013020216">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state width="1277" height="175" key="GridCell.Tab.0.center/43.27.1323.741@43.27.1323.741" timestamp="1575986531450" />
-    <state width="1277" height="175" key="GridCell.Tab.0.left" timestamp="1575986531449">
+    <state width="1277" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741@43.27.1323.741" timestamp="1576013020216" />
+    <state width="1277" height="175" key="GridCell.Tab.0.center" timestamp="1576013020216">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state width="1277" height="175" key="GridCell.Tab.0.left/43.27.1323.741@43.27.1323.741" timestamp="1575986531449" />
-    <state width="1277" height="175" key="GridCell.Tab.0.right" timestamp="1575986531450">
+    <state width="1277" height="175" key="GridCell.Tab.0.center/43.27.1323.741@43.27.1323.741" timestamp="1576013020216" />
+    <state width="1277" height="175" key="GridCell.Tab.0.left" timestamp="1576013020215">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state width="1277" height="175" key="GridCell.Tab.0.right/43.27.1323.741@43.27.1323.741" timestamp="1575986531450" />
+    <state width="1277" height="175" key="GridCell.Tab.0.left/43.27.1323.741@43.27.1323.741" timestamp="1576013020215" />
+    <state width="1277" height="175" key="GridCell.Tab.0.right" timestamp="1576013020216">
+      <screen x="43" y="27" width="1323" height="741" />
+    </state>
+    <state width="1277" height="175" key="GridCell.Tab.0.right/43.27.1323.741@43.27.1323.741" timestamp="1576013020216" />
+    <state x="360" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575999646506">
+      <screen x="43" y="27" width="1323" height="741" />
+    </state>
+    <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741@43.27.1323.741" timestamp="1575999646506" />
   </component>
 </project>

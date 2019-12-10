@@ -35,7 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user.apps.UserConfig',
+    'users.apps.UsersConfig',
+    'students.apps.StudentsConfig',
+    'adminTools.apps.AdmintoolsConfig',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -119,4 +122,14 @@ STATIC_URL = '/static/'
     Custom user model
 
 '''
-AUTH_USE_MODEL = "user.CusetomUser"
+AUTH_USER_MODEL = "users.CustomUser"
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
+
+
+# Fulhata School/settings.py
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
