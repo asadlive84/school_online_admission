@@ -1,0 +1,70 @@
+{% extends 'students/base.html' %}
+
+{% block page_upper %}
+
+<div class="col-md-6 col-8 align-self-center">
+    <h3 class="text-themecolor m-b-0 m-t-0">Create Uinon</h3>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'student:home' %}">home</a></li>
+            <li class="breadcrumb-item active">create union</li>
+        </ol>
+</div>
+
+
+{% endblock %}
+
+
+
+{% block content %}
+
+    <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Basic Table</h4>
+
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Name</th>
+                                                <th>Upazilla</th>
+                                                <th>zilla</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            {% for foo in object_list %}
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>{{ foo.name }}</td>
+                                                <td>{{ foo.upazilla.name }}</td>
+                                                <td>{{ foo.upazilla.zilla.name }}</td>
+
+                                            </tr>
+                                            {% endfor %}
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <form action="" method="post">
+
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form }}
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Create</button>
+
+    </form>
+{% endblock %}

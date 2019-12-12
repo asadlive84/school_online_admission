@@ -1,0 +1,113 @@
+
+
+{% extends "students/base.html" %}
+
+
+{% block page_upper %}
+
+{% endblock %}
+
+
+
+{% block content %}
+
+
+
+    <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-block">
+
+                                <h4 class="card-title">Projects of the Month</h4>
+                                <div class="table-responsive m-t-40">
+                                    <table class="table stylish-table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Create Submenu</th>
+                                                <th>Name</th>
+                                                <th>Budget</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-success">B</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:blood_create' %}">Blood Group</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-primary">S</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:session_create' %}">Session</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-danger">Se</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:section_create' %}">Section</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-info">Up</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:upazilla_create' %}">Upazilla</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-success">Z</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:zilla_create' %}">Zilla</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round round-primary">U</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:union_create' %}">Union</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round">U</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:word_create' %}">Word</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td style="width:50px;"><span class="round">C</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:class_create' %}">Class</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td style="width:50px;"><span class="round">G</span></td>
+                                                <td>
+                                                    <h6><a href="{% url 'student:department_create' %}">Department/Group</a></h6><small class="text-muted">Web Designer</small></td>
+                                                <td>Elite Admin</td>
+                                                <td>$3.9K</td>
+                                            </tr>
+
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+{% endblock %}

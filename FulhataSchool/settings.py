@@ -124,12 +124,12 @@ STATIC_URL = '/static/'
 '''
 AUTH_USER_MODEL = "users.CustomUser"
 
-
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-
-
 
 # Fulhata School/settings.py
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# demo_project/settings.py
+LOGIN_REDIRECT_URL = '/my-profile/'
+LOGOUT_REDIRECT_URL = '/user/login/'

@@ -1,13 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    {% for std in object_list %}
-    <h2>{{ std.full_name_en }}</h2>
-     <img src="{{ std.photo.url }}" alt="...">
-    {% endfor %}
-</body>
-</html>
+
+{% extends 'students/base.html' %}
+{% block page_upper %}
+
+<div class="col-md-6 col-8 align-self-center">
+    <h3 class="text-themecolor m-b-0 m-t-0">Admisson List</h3>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">Home</a></li>
+            <li class="breadcrumb-item active">admission list</li>
+        </ol>
+</div>
+<div class="col-md-6 col-4 align-self-center">
+    <a href="https://wrappixel.com/templates/monsteradmin/" class="btn pull-right hidden-sm-down btn-success"> Upgrade to Pro</a>
+</div>
+
+{% endblock %}
+
+
+
+{% block content %}
+
+ <div class="card">
+        <div class="card-block">
+            <h4 class="card-title">Student's Table</h4>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>SL</th>
+                            <th>Name</th>
+                            <th>DOB</th>
+                            <th>Father's & Mother's name</th>
+                            <th>Mobile Number</th>
+                            <th>Class</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for std in object_list %}
+                        <tr>
+                            <td>{{ forloop.counter }} - {{ std.std_id }}</td>
+                            <td>
+                                <a href="{{ std.get_absolute_url }}">{{ std.full_name_en }}</a>
+                            </td>
+                            <td>{{ std.date_of_birth }}</td>
+                            <td>
+                                {{ std.father_name_en }}
+                                {{ std.mother_name_en }}
+                            </td>
+                            <td>
+                                {{ std.mobile_number }}
+                            </td>
+                            <td>
+                                {{ std.class_name }}
+                            </td>
+                            <td>
+                                {% if std.std_status == False %}
+                                <span class="badge badge-warning">Processing...</span>
+                                 {% else %}
+                                 <span class="badge badge-success">Done</span>
+                                {% endif %}
+
+                            </td>
+
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}

@@ -1,4 +1,7 @@
+from datetime import date
+
 from django.db import models
+from django.urls import reverse
 from django.utils import timezone
 from adminTools.models import Zilla, \
     Upazilla, \
@@ -32,7 +35,7 @@ def increment_unique_student_id():
     tz = str(timezone.now().year)[2:4]
     last_std = Student.objects.all().order_by('id').last()
     if not last_std:
-        return 'FSC'+str(tz)+'1001'
+        return 'FSC' + str(tz) + '1001'
     std_no = last_std.std_id
     new_std_int = int(std_no.split('FSC' + str(tz))[-1]) + 1
     new_std_id = 'FSC' + str(tz) + str(new_std_int)
@@ -53,7 +56,7 @@ class Student(models.Model):
                               default=increment_unique_student_id,
                               null=True,
                               blank=True,
-                              editable=False,)
+                              editable=False, )
     gender = models.CharField('Gender', choices=GENDER, default=MALE, max_length=1)
     blood_group = models.ForeignKey(BloodGroup, on_delete=models.CASCADE)
     religion = models.CharField('Religion', choices=RELIGION, default=ISLAM, max_length=1)
@@ -67,7 +70,7 @@ class Student(models.Model):
                                                          blank=True,
                                                          null=True)
     email_field = models.EmailField(unique=True, blank=True, null=True)
-
+    std_status = models.BooleanField(default=False)
     last_school = models.CharField(max_length=300, blank=True, null=True)
     class_name = models.ForeignKey(SchoolClass, on_delete=models.CASCADE)
     std_group = models.ForeignKey(StudentGroup, on_delete=models.CASCADE)
@@ -84,3 +87,10 @@ class Student(models.Model):
 
     def __str__(self):
         return f"{self.full_name_en} - {self.std_id}"
+
+    def get_absolute_url(self):
+        return reverse('student:admission_detail', args=[str(self.id)])
+
+    def calculate_age(self):
+        today = date.today()
+        return today.year - self.date_of_birth.year - ((today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day))

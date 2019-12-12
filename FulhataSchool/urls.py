@@ -21,7 +21,9 @@ from django.urls import path, include
 urlpatterns = [
                   path('admin/', admin.site.urls),
                   path("", include("students.urls")),
+                  path('user/', include('users.urls')),
+                  path('user/', include('django.contrib.auth.urls')),
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
-if settings.DEBUG: # new
+if settings.DEBUG:  # new
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

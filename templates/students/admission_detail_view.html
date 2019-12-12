@@ -1,10 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
+{% extends 'students/base.html' %}
+{% load static %}
+{% block page_upper %}
+
+<div class="col-md-6 col-8 align-self-center">
+    <h3 class="text-themecolor m-b-0 m-t-0">{{ object.full_name_en }} Details</h3>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'student:admission_list' %}">Admission List</a></li>
+            <li class="breadcrumb-item active">{{ object.full_name_en }}</li>
+        </ol>
+</div>
+<div class="col-md-6 col-4 align-self-center">
+    <a href="{% url "student:admission_pdf_create" object.id %}" class="btn pull-right hidden-sm-down btn-success">Download</a>
+</div>
+
+{% endblock %}
+
+
+
+{% block content %}
+
+
+<div class="row">
+
+
+
+                    <!-- Column -->
+    <div class="col-lg-4 col-xlg-3 col-md-5">
+        <div class="card">
+            <div class="card-block">
+                <center class="m-t-30"> <img src="{{ object.photo.url }}" class="img-circle" width="150">
+
+                    <h4 class="card-title m-t-10">{{ object.full_name_en }}</h4>
+                    <h6 class="card-subtitle">{{ object.mobile_number }} - {{ object.calculate_age }} Year's Old  - </h6>
+
+                </center>
+            </div>
+        </div>
+    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+    <div class="col-lg-8 col-xlg-9 col-md-7">
+                        <!-- Nav pills -->
+        <ul class="nav nav-pills" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#home">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu1">Address</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu2">Academic</a>
+        </li>
+        </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+
+            <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>Status </td>
+                    <td>
+                        {% if object.std_status == False %}
+                    <span class="badge badge-warning">Processing...</span>
+                     {% else %}
+                     <span class="badge badge-success">Done</span>
+                    {% endif %}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>ID </td>
+                    <td>{{ object.std_id }}</td>
+                  </tr>
+                  <tr>
+                    <td>Name BN </td>
+                    <td>{{ object.full_name_bn }}</td>
+                  </tr>
+                  <tr>
+                    <td>Name EN </td>
+                    <td>{{ object.full_name_en }}</td>
+                  </tr>
+                  <tr>
+                    <td>DOB</td>
+                    <td>{{ object.date_of_birth }} - {{ object.calculate_age }} year's old</td>
+                  </tr>
+                  <tr>
+                    <td>Religion </td>
+                    <td>{{ object.get_religion_display }}</td>
+                  </tr>
+                  <tr>
+                    <td>Gender</td>
+                    <td>{{ object.get_gender_display }}</td>
+                  </tr>
+                  <tr>
+                    <td>Blood Group</td>
+                    <td>{{ object.blood_group }}</td>
+                  </tr>
+                  <tr>
+                    <td>Father's BN </td>
+                    <td>{{ object.father_name_bn }}</td>
+                  </tr>
+                  <tr>
+                    <td>Father's EN </td>
+                    <td>{{ object.father_name_en }}</td>
+                  </tr>
+                  <tr>
+                    <td>Mother's BN </td>
+                    <td>{{ object.mother_name_bn }}</td>
+                  </tr>
+                  <tr>
+                    <td>Mother's EN </td>
+                    <td>{{ object.mother_name_en }}</td>
+                  </tr>
+                  <tr>
+                    <td>Created By</td>
+                    <td>{{ object.created_by.full_name }}</td>
+                  </tr>
+                  <tr>
+                    <td>Created Time</td>
+                    <td>{{ object.created_at }}</td>
+                  </tr>
+                  <tr>
+                    <td>Last Update</td>
+                    <td>{{ object.updated }}</td>
+                  </tr>
+
+
+
+            </tbody>
+          </table>
+
+
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>Mobile </td>
+                    <td>+880{{ object.mobile_number }}</td>
+                  </tr>
+
+                  <tr>
+                    <td>Mobile Optionl</td>
+                    <td>+880{{ object.optional_mobile_number }}</td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td>{{ object.email_field }}</td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td>{{ object.address }}</td>
+                  </tr>
+                  <tr>
+                    <td>Address Optional</td>
+                    <td>{{ object.address_opt }}</td>
+                  </tr>
+                  <tr>
+                    <td>Word/Village </td>
+                    <td>{{ object.word_no.name }}</td>
+                  </tr>
+                  <tr>
+                    <td>Union </td>
+                    <td>{{ object.union.name }}</td>
+                  </tr>
+                  <tr>
+                    <td>Upazilla </td>
+                    <td>{{ object.upazilla.name }}</td>
+                  </tr>
+                  <tr>
+                    <td>Zilla</td>
+                    <td>{{ object.zilla.name }}</td>
+                  </tr>
+
+
+
+
+            </tbody>
+          </table>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+         <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>Class </td>
+                    <td>{{ object.class_name}}</td>
+                  </tr>
+
+                  <tr>
+                    <td>Group</td>
+                    <td>{{ object.std_group }}</td>
+                  </tr>
+                  <tr>
+                    <td>Section</td>
+                    <td>{{ object.academic_section }}</td>
+                  </tr>
+                  <tr>
+                    <td>Session</td>
+                    <td>{{ object.academic_session }}</td>
+                  </tr>
+                  <tr>
+                    <td>Last School </td>
+                    <td>{{ object.last_school }}</td>
+                  </tr>
+
+
+
+
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+                    </div>
+                    <!-- Column -->
+                </div>
+
+
+
+{% endblock %}
