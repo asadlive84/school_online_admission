@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMixin
 from django.core.paginator import Paginator
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
@@ -19,11 +20,12 @@ from adminTools.models import BloodGroup, \
     Zilla
 
 
-class HomePage(generic.TemplateView):
+class HomePage(LoginRequiredMixin, generic.TemplateView):
     template_name = "students/home.html"
+    login_url = "user/login/"
 
 
-class UserProfileView(generic.UpdateView):
+class UserProfileView(LoginRequiredMixin, generic.UpdateView):
 
     # template_name = "students/my_profile.html"
 
@@ -32,13 +34,17 @@ class UserProfileView(generic.UpdateView):
         return render(request, "students/my_profile.html", {'user': user})
 
 
-class AdmissionListView(generic.ListView):
+class AdmissionListView(PermissionRequiredMixin, generic.ListView):
     model = Student
     template_name = "students/admission_list.html"
+    permission_required = ("student.add_student",)
 
 
-class AdmissionDetailView(generic.DetailView):
+class AdmissionDetailView(PermissionRequiredMixin, generic.DetailView):
     model = Student
     template_name = "students/admission_detail_view.html"
+    permission_required = ("student.add_student",)
 
 
+class NoPermissionError(generic.TemplateView):
+    template_name = "students/no_permission_error.html"

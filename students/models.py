@@ -35,10 +35,10 @@ def increment_unique_student_id():
     tz = str(timezone.now().year)[2:4]
     last_std = Student.objects.all().order_by('id').last()
     if not last_std:
-        return 'FSC' + str(tz) + '1001'
+        return 'FSS' + str(tz) + '1001'
     std_no = last_std.std_id
-    new_std_int = int(std_no.split('FSC' + str(tz))[-1]) + 1
-    new_std_id = 'FSC' + str(tz) + str(new_std_int)
+    new_std_int = int(std_no.split('FSS' + str(tz))[-1]) + 1
+    new_std_id = 'FSS' + str(tz) + str(new_std_int)
     return new_std_id
 
 
@@ -82,6 +82,7 @@ class Student(models.Model):
     word_no = models.ForeignKey(WordNo, on_delete=models.CASCADE)
     address = models.CharField("Address", blank=True, null=True, max_length=200)
     address_opt = models.TextField("Address", blank=True, null=True)
+
     created_at = models.DateTimeField(auto_now=True)
     updated = models.DateTimeField(auto_now_add=True)
 

@@ -10,7 +10,7 @@
         </ol>
 </div>
 <div class="col-md-6 col-4 align-self-center">
-    <a href="https://wrappixel.com/templates/monsteradmin/" class="btn pull-right hidden-sm-down btn-success"> Upgrade to Pro</a>
+    <a href="{% url "student:admission_create" %}" class="btn pull-right hidden-sm-down btn-success">Create Admission</a>
 </div>
 
 {% endblock %}
@@ -55,10 +55,12 @@
                                 {{ std.class_name }}
                             </td>
                             <td>
-                                {% if std.std_status == False %}
-                                <span class="badge badge-warning">Processing...</span>
-                                 {% else %}
-                                 <span class="badge badge-success">Done</span>
+                                {% if std.admissionapproval.status == 'A' %}
+                                Approved by {{ std.admissionapproval.status_by.full_name }}
+                                {% else %}
+                                <span class="badge badge-warning">
+                                <a href="{% url 'student:admission_approval' std.pk %}">Processing...</a>
+                                </span>
                                 {% endif %}
 
                             </td>

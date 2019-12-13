@@ -2,980 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91e0ef77-727f-4faf-92ef-cf3f1626765f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adminTools/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/migrations/0008_student_std_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/background/error-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/big/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/big/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/big/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/custom-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/users/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/users/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/images/users/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/bootstrap/js/tether.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/js/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/FAQ.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/NEWS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/PLUGINS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-eu-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-japan-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/data-usa-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/ajax/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/annotating/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-multiple/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/africa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/antarctica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/asia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/australasia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/backward" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/etcetera" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/europe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/factory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/iso3166.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/leapseconds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/northamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/pacificnew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/solar87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/solar88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/solar89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/southamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/systemv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/yearistype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time-zones/tz/zone.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/axes-time/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/basic-options/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/basic-usage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/canvas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/categories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/examples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/image/hs-2004-27-a-large-web.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/image/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/navigate/arrow-down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/navigate/arrow-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/navigate/arrow-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/navigate/arrow-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/navigate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/percentiles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/realtime/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/resize/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/selection/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/series-errorbars/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/series-pie/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/series-toggle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/series-types/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/stacking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/symbols/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/threshold/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/tracking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/visitors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/examples/zooming/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/flot.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/flot/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/gmaps/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/gmaps/gmaps.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/gmaps/jquery.gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/assets/plugins/styleswitcher/jQuery.style.switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/blue-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/default-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/green-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/megna-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/megna.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/purple-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/red-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/colors/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/icons/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/icons/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/spinners.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/flot-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/sidebarmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/js/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/images/bg-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/animsition/css/animsition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/animsition/css/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/animsition/js/animsition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/animsition/js/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/countdowntime/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/daterangepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/login/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/blue-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/blue.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/default-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/green-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/megna-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/megna.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/purple-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/purple.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/red-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/colors/red.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flag-icon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/af.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/al.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/am.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/aq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/at.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/au.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/aw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/az.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/by.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/bz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/cz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/dj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/dk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/dm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/do.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/dz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/eg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/eh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/er.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/es.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/et.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ga.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/gy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/hk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/hm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/hn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/hr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ht.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/hu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/id.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/il.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/im.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/iq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/is.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/je.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/jm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/jo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/jp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/km.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/kz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/la.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/li.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/lv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/me.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ml.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/my.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/mz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/na.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ni.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/np.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/nz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/om.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/pw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/py.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/qa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/re.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/rs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/rw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/se.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/si.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/so.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/sz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/td.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/th.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/to.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/tz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ua.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/um.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/uy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/uz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/va.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/vc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/vg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/vi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/vn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/vu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/wf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/ye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/za.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/zm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/flag-icon-css/flags/zw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont-old.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/old/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-arrows-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-arrows-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-arrows-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-arrows-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-ecommerce-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-ecommerce-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-ecommerce-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-ecommerce-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-music-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-music-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-music-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-music-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-software-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-software-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-software-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-software-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-weather-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-weather-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-weather-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/fonts/linea-weather-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/linea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/linea.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/linea-icons/linea.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/less/simple-line-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/simple-line-icons/scss/simple-line-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/ie7/ie7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/themify-icons/themify-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons-core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons-variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons-wind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons-wind.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/css/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/fonts/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-beaufort.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-day.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-direction.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-misc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-moon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-neutral.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-time.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/css/variables-wind-names.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-beaufort.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-day.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-direction.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-misc.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-moon-aliases.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-moon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-neutral.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-night.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-time.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-wind-aliases.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-wind-degrees.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-classes/classes-wind.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-beaufort.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-day.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-direction.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-misc.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-moon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-neutral.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-night.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-time.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/icon-variables/variables-wind-names.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/mappings/wi-forecast-io.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/mappings/wi-owm.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/mappings/wi-wmo4680.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/mappings/wi-yahoo.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons-classes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons-core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons-variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons-wind.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons-wind.min.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/less/weather-icons.min.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-wind-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-wind-degrees.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-classes/classes-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/icon-variables/variables-wind-names.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/mappings/wi-owm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons-core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons-wind.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/icons/weather-icons/sass/weather-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/static/scss/widgets.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/views/create_pdf_admission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/views/create_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/views/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/background/error-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/big/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/big/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/big/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/custom-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/users/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/users/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/images/users/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/bootstrap/js/tether.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/js/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/FAQ.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/NEWS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/PLUGINS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth-5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-eu-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-japan-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/data-usa-gdp-growth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/ajax/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/annotating/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-multiple/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/africa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/antarctica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/asia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/australasia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/backward" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/etcetera" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/europe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/factory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/iso3166.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/leapseconds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/northamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/pacificnew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/solar87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/solar88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/solar89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/southamerica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/systemv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/yearistype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time-zones/tz/zone.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/axes-time/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/basic-options/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/basic-usage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/canvas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/categories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/examples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/image/hs-2004-27-a-large-web.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/image/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/interacting/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/navigate/arrow-down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/navigate/arrow-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/navigate/arrow-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/navigate/arrow-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/navigate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/percentiles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/realtime/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/resize/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/selection/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/series-errorbars/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/series-pie/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/series-toggle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/series-types/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/stacking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/symbols/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/threshold/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/tracking/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/visitors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/examples/zooming/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/flot.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/flot/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/gmaps/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/gmaps/gmaps.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/gmaps/jquery.gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monster-lite/assets/plugins/styleswitcher/jQuery.style.switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/admission_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_academic_section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_academic_session.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_admission_pdf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_blood_group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_std_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_std_group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_union.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_upazilla.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_word.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/create/create_zilla.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/icon-fontawesome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/map-google.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/my_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/pages-blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/pages-error-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/pages-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/table-basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20191212_0728.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20191212_0739.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminTools/migrations/0002_admissionapproval_schoolinformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0002_auto_20191213_2106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/static/font/NotoSerifBengali-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/static/logo/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/static/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/views/weasypdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/create/create_admission_permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/create/school_info_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/create/static/font/NotoSerifBengali-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/no_permission_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20191213_2106.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FulhataSchool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FulhataSchool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FulhataSchool/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FulhataSchool/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FulhataSchool/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FulhataSchool/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminTools/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminTools/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0002_auto_20191210_1959.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0003_auto_20191210_2004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0004_auto_20191210_2108.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0005_auto_20191210_2238.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0006_auto_20191210_2241.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0007_auto_20191210_2244.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/migrations/0008_student_std_status.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/students/admission_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/create_pdf_admission.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/create_pdf_admission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/create_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/create_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/students/admission_detail_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/admission_detail_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/students/admission_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/admission_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/create/admission_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/create/admission_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/create/create_admission_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/create/create_admission_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/create/create_union.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/create/create_union.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/create/create_upazilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/create/create_upazilla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/create/create_word.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/create/create_word.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/my_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/my_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20191212_0728.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0003_auto_20191212_0739.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="auth_permission: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="users_customuser_user_permissions: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -984,8 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -1003,11 +124,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/a/Billing-Cable-TV-Providers-" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -1050,7 +172,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db.sqlite3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db.sqlite3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5ee48575" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -1076,7 +208,12 @@
       <workItem from="1576127000003" duration="7659000" />
       <workItem from="1576141773007" duration="1557000" />
       <workItem from="1576149176542" duration="926000" />
-      <workItem from="1576155653235" duration="9572000" />
+      <workItem from="1576155653235" duration="9928000" />
+      <workItem from="1576169465179" duration="13101000" />
+      <workItem from="1576228386846" duration="5036000" />
+      <workItem from="1576235102140" duration="2782000" />
+      <workItem from="1576251814678" duration="19900000" />
+      <workItem from="1576274698826" duration="627000" />
     </task>
     <servers />
   </component>
@@ -1087,38 +224,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576165084681">
+    <state x="299" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576270151762">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl/43.27.1323.741@43.27.1323.741" timestamp="1576165084681" />
-    <state width="1277" height="175" key="GridCell.Tab.0.bottom" timestamp="1576165197379">
+    <state x="299" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.27.1323.741@43.27.1323.741" timestamp="1576270151762" />
+    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576270143916">
+      <screen x="43" y="27" width="1323" height="741" />
+    </state>
+    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl/43.27.1323.741@43.27.1323.741" timestamp="1576270143916" />
+    <state width="873" height="175" key="GridCell.Tab.0.bottom" timestamp="1576275316208">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
-    <state width="1277" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741@43.27.1323.741" timestamp="1576165197379" />
-    <state width="1277" height="175" key="GridCell.Tab.0.center" timestamp="1576165197378">
+    <state width="873" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741@43.27.1323.741" timestamp="1576275316208" />
+    <state width="873" height="175" key="GridCell.Tab.0.center" timestamp="1576275316208">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.center/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
-    <state width="1277" height="175" key="GridCell.Tab.0.center/43.27.1323.741@43.27.1323.741" timestamp="1576165197378" />
-    <state width="1277" height="175" key="GridCell.Tab.0.left" timestamp="1576165197374">
+    <state width="873" height="175" key="GridCell.Tab.0.center/43.27.1323.741@43.27.1323.741" timestamp="1576275316208" />
+    <state width="873" height="175" key="GridCell.Tab.0.left" timestamp="1576275316208">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.left/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119349" />
-    <state width="1277" height="175" key="GridCell.Tab.0.left/43.27.1323.741@43.27.1323.741" timestamp="1576165197374" />
-    <state width="1277" height="175" key="GridCell.Tab.0.right" timestamp="1576165197379">
+    <state width="873" height="175" key="GridCell.Tab.0.left/43.27.1323.741@43.27.1323.741" timestamp="1576275316208" />
+    <state width="873" height="175" key="GridCell.Tab.0.right" timestamp="1576275316208">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.right/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
-    <state width="1277" height="175" key="GridCell.Tab.0.right/43.27.1323.741@43.27.1323.741" timestamp="1576165197379" />
-    <state x="193" y="31" key="SettingsEditor" timestamp="1576165127199">
+    <state width="873" height="175" key="GridCell.Tab.0.right/43.27.1323.741@43.27.1323.741" timestamp="1576275316208" />
+    <state x="193" y="31" key="SettingsEditor" timestamp="1576180776794">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state x="193" y="31" key="SettingsEditor/43.27.1323.741@43.27.1323.741" timestamp="1576165127199" />
-    <state x="360" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576155661488">
+    <state x="193" y="31" key="SettingsEditor/43.27.1323.741@43.27.1323.741" timestamp="1576180776794" />
+    <state x="360" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576274703183">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576141787963" />
-    <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741@43.27.1323.741" timestamp="1576155661488" />
+    <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741@43.27.1323.741" timestamp="1576274703183" />
   </component>
 </project>

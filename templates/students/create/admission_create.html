@@ -10,9 +10,7 @@
             <li class="breadcrumb-item active">admission form</li>
         </ol>
 </div>
-<div class="col-md-6 col-4 align-self-center">
-    <a href="https://wrappixel.com/templates/monsteradmin/" class="btn pull-right hidden-sm-down btn-success"> Upgrade to Pro</a>
-</div>
+
 
 {% endblock %}
 
@@ -39,7 +37,7 @@
                   </div>
 
                  <div class="form-group">
-                    <label for="{{ form.photo.id_for_label }}">শিক্ষার্থীর ছবি:</label>
+                    <label for="{{ form.photo.id_for_label }}">শিক্ষার্থীর ছবি: W 150 * H 160</label>
 
 
 
@@ -85,7 +83,7 @@
                   </div>
 
                  <div class="form-group">
-                    <label for="{{ form.date_of_birth.id_for_label }}">শিক্ষার্থীর জন্মতারিখ:</label>
+                    <label for="{{ form.date_of_birth.id_for_label }}">শিক্ষার্থীর জন্মতারিখ: YYYY-MM-DD</label>
                     {{ form.date_of_birth }}
                   </div>
 

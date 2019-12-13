@@ -3,10 +3,10 @@
 {% block page_upper %}
 
 <div class="col-md-6 col-8 align-self-center">
-    <h3 class="text-themecolor m-b-0 m-t-0">Create Word</h3>
+    <h3 class="text-themecolor m-b-0 m-t-0">Create School Info</h3>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{% url 'student:home' %}">home</a></li>
-            <li class="breadcrumb-item active">create Word</li>
+            <li class="breadcrumb-item active">create school info</li>
         </ol>
 </div>
 
@@ -22,9 +22,7 @@
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-block">
-                                <h4 class="card-title">
-                                    <a href="{% url "student:union_create" %}">Union Create</a>
-                                </h4>
+                                <h4 class="card-title">Basic Table</h4>
 
                                 <div class="table-responsive">
                                     <table class="table">
@@ -32,10 +30,10 @@
                                             <tr>
                                                 <th>#</th>
                                                 <th>Name</th>
-                                                <th>Numeric</th>
-                                                <th>Union</th>
-                                                <th>Upzilla</th>
-                                                <th>zilla</th>
+                                                <th>Description</th>
+                                                <th>Contact</th>
+                                                <th>Logo</th>
+                                                <th>Created/Updated</th>
 
                                             </tr>
                                         </thead>
@@ -45,10 +43,12 @@
                                             <tr>
                                                 <td>{{ forloop.counter }}</td>
                                                 <td>{{ foo.name }}</td>
-                                                <td>{{ foo.name_of_numeric }}</td>
-                                                <td>{{ foo.union.name }}</td>
-                                                <td>{{ foo.union.upazilla.name }}</td>
-                                                <td>{{ foo.union.upazilla.zilla.name }}</td>
+                                                <td>{{ foo.description }}</td>
+                                                <td>{{ foo.contact }}</td>
+                                                <td>
+                                                    <img src="{{ foo.logo.url }}" alt="" style="width: 50px; height: 60px">
+                                                </td>
+                                                <td>{{ foo.created_at }} - {{ foo.updated }}</td>
 
                                             </tr>
                                             {% endfor %}
@@ -62,7 +62,7 @@
                     </div>
                 </div>
 
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data" >
 
         {% csrf_token %}
         <div class="form-group">

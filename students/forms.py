@@ -1,5 +1,12 @@
+from adminTools.models import SchoolInformation, AdmissionApproval
 from students.models import Student
 from django import forms
+
+
+class SchoolInfoFormCrateView(forms.ModelForm):
+    class Meta:
+        model = SchoolInformation
+        fields = ("name", "description", "contact", "logo",)
 
 
 class StudentFrom(forms.ModelForm):
@@ -37,7 +44,7 @@ class StudentFrom(forms.ModelForm):
             super(StudentFrom, self).__init__(*args, **kwargs)
 
 
-
-
-
-
+class AdmissionApprovalStatusForm(forms.ModelForm):
+    class Meta:
+        model = AdmissionApproval
+        fields = ("status", "message")

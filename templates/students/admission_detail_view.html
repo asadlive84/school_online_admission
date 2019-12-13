@@ -11,7 +11,9 @@
         </ol>
 </div>
 <div class="col-md-6 col-4 align-self-center">
-    <a href="{% url "student:admission_pdf_create" object.id %}" class="btn pull-right hidden-sm-down btn-success">Download</a>
+     {% if object.admissionapproval.status == 'A' %}
+         <a href="{% url "student:admission_pdf_create" object.id %}" class="btn pull-right hidden-sm-down btn-success">Download</a>
+     {% endif %}
 </div>
 
 {% endblock %}
@@ -32,7 +34,14 @@
                 <center class="m-t-30"> <img src="{{ object.photo.url }}" class="img-circle" width="150">
 
                     <h4 class="card-title m-t-10">{{ object.full_name_en }}</h4>
-                    <h6 class="card-subtitle">{{ object.mobile_number }} - {{ object.calculate_age }} Year's Old  - </h6>
+
+                     {% if object.admissionapproval.status == 'A' %}
+                    Approved by {{ object.admissionapproval.status_by.full_name }}
+                    {% else %}
+                    <a href="{% url 'student:admission_approval' object.pk %}">Needs Approval!!!</a>
+                    {% endif %}
+
+
 
                 </center>
             </div>
@@ -63,10 +72,10 @@
                   <tr>
                     <td>Status </td>
                     <td>
-                        {% if object.std_status == False %}
-                    <span class="badge badge-warning">Processing...</span>
+                   {% if object.admissionapproval.status == 'A' %}
+                    <span class="badge badge-success">{{ object.admissionapproval.get_status_display }}</span>
                      {% else %}
-                     <span class="badge badge-success">Done</span>
+                     <span class="badge badge-danger">Processing...</span>
                     {% endif %}
                     </td>
                   </tr>
@@ -199,7 +208,13 @@
                   </tr>
                   <tr>
                     <td>Session</td>
-                    <td>{{ object.academic_session }}</td>
+                    <td>
+                        {% if object.class_name.class_name_numeric <= 8 %}
+                        {{ object.academic_session.jr_session }}
+                        {% elif object.class_name.class_name_numeric >= 9 %}
+                         {{ object.academic_session.sec_session }}
+                        {% endif %}
+                    </td>
                   </tr>
                   <tr>
                     <td>Last School </td>

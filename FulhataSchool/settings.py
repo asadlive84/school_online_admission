@@ -131,5 +131,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # demo_project/settings.py
+LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/my-profile/'
 LOGOUT_REDIRECT_URL = '/user/login/'
