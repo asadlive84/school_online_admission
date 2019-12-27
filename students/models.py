@@ -49,7 +49,7 @@ class Student(models.Model):
     created_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True, blank=True)
     full_name_bn = models.CharField('Full Name of Student - BN', max_length=100)
     full_name_en = models.CharField('Full Name of Student - EN', max_length=100)
-    photo = models.ImageField(upload_to='images/')
+    photo = models.ImageField(upload_to='images/', blank=True, null=True)
     std_id = models.CharField('Student ID',
                               max_length=100,
                               unique=True,

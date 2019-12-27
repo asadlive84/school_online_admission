@@ -37,13 +37,13 @@ class UserProfileView(LoginRequiredMixin, generic.UpdateView):
 class AdmissionListView(PermissionRequiredMixin, generic.ListView):
     model = Student
     template_name = "students/admission_list.html"
-    permission_required = ("student.add_student",)
+    permission_required = ("students.add_student",)
 
 
 class AdmissionDetailView(PermissionRequiredMixin, generic.DetailView):
     model = Student
     template_name = "students/admission_detail_view.html"
-    permission_required = ("student.add_student",)
+    permission_required = ("students.add_student",)
 
 
 class NoPermissionError(generic.TemplateView):

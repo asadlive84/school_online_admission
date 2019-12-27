@@ -13,8 +13,8 @@ class AdmissionCreateView(PermissionRequiredMixin, generic.CreateView):
     model = Student
     form_class = StudentFrom
     template_name = "students/create/admission_create.html"
-    permission_denied_message = "You dont have access"
-    permission_required = ("student.add_student",)
+    #permission_denied_message = "You dont have access"
+    permission_required = ("students.add_student",)
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
@@ -33,7 +33,7 @@ class BloodGroupCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_blood_group.html"
     success_url = reverse_lazy('student:blood_create')
-    permission_required = ("bloodgroup.add_bloodgroup",)
+    permission_required = ("student.add_bloodgroup",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -46,7 +46,7 @@ class ClassCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_std_class.html"
     success_url = reverse_lazy('student:class_create')
-    permission_required = ("schoolclass.add_schoolclass", )
+    permission_required = ("students.add_schoolclass", )
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -59,7 +59,7 @@ class DepartmentCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_std_group.html"
     success_url = reverse_lazy('student:department_create')
-    permission_required = ("studentgroup.add_studentgroup", )
+    permission_required = ("students.add_studentgroup", )
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -72,7 +72,7 @@ class SectionCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_academic_section.html"
     success_url = reverse_lazy('student:section_create')
-    permission_required = ("academicsection.add_academicsession", )
+    permission_required = ("students.add_academicsession", )
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -85,7 +85,7 @@ class SessionCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_academic_session.html"
     success_url = reverse_lazy('student:session_create')
-    permission_required = ("academicsession.add_academicsection", )
+    permission_required = ("students.add_academicsection", )
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -98,7 +98,7 @@ class ZillaCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_zilla.html"
     success_url = reverse_lazy('student:zilla_create')
-    permission_required = ("academicsession.add_academicsection",)
+    permission_required = ("students.add_academicsection",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -111,7 +111,7 @@ class UpazillaCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_upazilla.html"
     success_url = reverse_lazy('student:upazilla_create')
-    permission_required = ("upazilla.add_upazilla",)
+    permission_required = ("students.add_upazilla",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -124,7 +124,7 @@ class UnionCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_union.html"
     success_url = reverse_lazy('student:union_create')
-    permission_required = ("union.add_union")
+    permission_required = "students.add_union"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -150,7 +150,7 @@ class SchoolInfoCrateView(PermissionRequiredMixin, generic.CreateView):
     form_class = SchoolInfoFormCrateView
     template_name = "students/create/school_info_create.html"
     success_url = reverse_lazy('student:school_info_create')
-    permission_required = ("schoolinformation.add_schoolinformation",)
+    permission_required = ("students.add_schoolinformation",)
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
@@ -168,7 +168,7 @@ class AdmissionPDFCreate(PermissionRequiredMixin, generic.CreateView):
     model = Student
     fields = "__all__"
     template_name = "students/create/create_admission_pdf.html"
-    permission_required = ("student.add_student", 'student.view_student')
+    permission_required = ("students.add_student", 'student.view_student')
 
     # success_url = reverse_lazy('student:admission_pdf_create')
 
@@ -182,7 +182,7 @@ class AdmissionApprovalView(PermissionRequiredMixin, generic.CreateView):
     model = AdmissionApproval
     form_class = AdmissionApprovalStatusForm
     template_name = "students/create/create_admission_permission.html"
-    permission_required = ("admissionapproval.add_admissionapproval",)
+    permission_required = ("students.add_admissionapproval",)
 
     def form_valid(self, form):
         std = Student.objects.get(pk=self.kwargs['std_id'])

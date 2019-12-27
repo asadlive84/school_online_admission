@@ -1,0 +1,175 @@
+
+{% extends 'students/base.html' %}
+
+{% block page_upper %}
+
+<div class="col-md-6 col-8 align-self-center">
+    <h3 class="text-themecolor m-b-0 m-t-0">Update Admisson Form [{{ object.full_name_en }} ID {{ object.std_id }}]</h3>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">Home</a></li>
+            <li class="breadcrumb-item active">update admission form</li>
+        </ol>
+</div>
+
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-12">
+              <form method="post" enctype="multipart/form-data">
+                  {% csrf_token %}
+
+                  <div class="form-group">
+                    <label for="{{ form.full_name_en.id_for_label }}">ইংরেজীতে শিক্ষার্থীর নাম:</label>
+                    {{ form.full_name_en }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.full_name_bn.id_for_label }}">বাংলায় শিক্ষার্থীর নাম:</label>
+                    {{ form.full_name_bn }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.photo.id_for_label }}">শিক্ষার্থীর ছবি: W 150 * H 160</label>
+
+
+
+                    {{ form.photo }}
+
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.gender.id_for_label }}">শিক্ষার্থী নারী্/পুরুষ?:</label>
+                    {{ form.gender }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.blood_group.id_for_label }}"> শিক্ষার্থীর রক্তের গ্রুপ:</label>
+                    {{ form.blood_group }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.religion.id_for_label }}">শিক্ষার্থী কোন ধর্মের অনুসারী?</label>
+                    {{ form.religion }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.father_name_bn.id_for_label }}">শিক্ষার্থীর পিতার নাম: বাংলায়</label>
+                    {{ form.father_name_bn }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.father_name_en.id_for_label }}">শিক্ষার্থীর পিতার নাম: ইংরেজীতে</label>
+                    {{ form.father_name_en }}
+                  </div>
+
+
+
+                 <div class="form-group">
+                    <label for="{{ form.mother_name_en.id_for_label }}">ইংরেজীতে শিক্ষার্থীর মাতার নাম:</label>
+                    {{ form.mother_name_en }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.mother_name_bn.id_for_label }}">বাংলায় শিক্ষার্থীর মাতার নাম:</label>
+                    {{ form.mother_name_bn }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.date_of_birth.id_for_label }}">শিক্ষার্থীর জন্মতারিখ: YYYY-MM-DD</label>
+                    {{ form.date_of_birth }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.mobile_number.id_for_label }}">শিক্ষার্থীর মোবাইল নম্বর:</label>
+                    {{ form.mobile_number }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.optional_mobile_number.id_for_label }}">শিক্ষার্থীর ২য় মোবাইল নম্বর:</label>
+                    {{ form.optional_mobile_number }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.email_field.id_for_label }}">ইমেইল এড্রেস</label>
+                    {{ form.email_field }}
+                  </div>
+
+
+                 <div class="form-group">
+                    <label for="{{ form.last_school.id_for_label }}">শিক্ষার্থীর সর্বশেষ স্কুল</label>
+                    {{ form.last_school }}
+                  </div>
+
+
+                 <div class="form-group">
+                    <label for="{{ form.class_name.id_for_label }}">শিক্ষার্থীর শ্রেনী</label>
+                    {{ form.class_name }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.std_group.id_for_label }}">শিক্ষার্থীর ডিপার্টমেন্ট/গ্রুপ</label>
+                    {{ form.std_group }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.academic_section.id_for_label }}">শিক্ষার্থীর সেকশন</label>
+                    {{ form.academic_section }}
+                  </div>
+
+
+                 <div class="form-group">
+                    <label for="{{ form.academic_session.id_for_label }}">শিক্ষার্থীর সেশন</label>
+                    {{ form.academic_session }}
+                  </div>
+
+
+                 <div class="form-group">
+                    <label for="{{ form.zilla.id_for_label }}">শিক্ষার্থীর জেলা</label>
+                    {{ form.zilla }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.upazilla.id_for_label }}">শিক্ষার্থীর উপজেলা</label>
+                    {{ form.upazilla }}
+                  </div>
+
+                  <div class="form-group">
+                    <label for="{{ form.union.id_for_label }}">শিক্ষার্থীর ইউনিয়ন</label>
+                    {{ form.union }}
+                  </div>
+
+                  <div class="form-group">
+                    <label for="{{ form.word_no.id_for_label }}">শিক্ষার্থীর ওয়ার্ড নং</label>
+                    {{ form.word_no }}
+                  </div>
+
+                  <div class="form-group">
+                    <label for="{{ form.address.id_for_label }}">শিক্ষার্থীর ঠিকানা</label>
+                    {{ form.address }}
+                  </div>
+
+                 <div class="form-group">
+                    <label for="{{ form.address_opt.id_for_label }}">শিক্ষার্থীর বর্তমান ঠিকানা</label>
+                    {{ form.address_opt }}
+                  </div>
+
+              <button type="submit" class="btn btn-primary">এ্যাডমিশন ফর্ম তৈরি করুন</button>
+         </form>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+{% endblock %}

@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91e0ef77-727f-4faf-92ef-cf3f1626765f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/students/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0003_auto_20191227_1734.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/migrations/0004_auto_20191227_1736.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/views/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/students/update/student_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FulhataSchool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FulhataSchool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminTools/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminTools/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/create_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/create_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/views/weasypdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/views/weasypdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/students/admission_detail_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students/admission_detail_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/cairosvg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/cairosvg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pisa" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pisa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/weasyprint" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/weasyprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/xhtml2pdf" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/xhtml2pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,28 +45,30 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="auth_permission: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="users_customuser_user_permissions: table" type="3d80ac25:SqliteImplModel$Table" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -62,8 +80,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -86,7 +104,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/a/Billing-Cable-TV-Providers-" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/bin/python3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -129,7 +147,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:SQLite - db.sqlite3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -161,6 +184,10 @@
       <workItem from="1576235102140" duration="2782000" />
       <workItem from="1576251814678" duration="19900000" />
       <workItem from="1576274698826" duration="773000" />
+      <workItem from="1577458472165" duration="1452000" />
+      <workItem from="1577459961216" duration="221000" />
+      <workItem from="1577460209428" duration="1275000" />
+      <workItem from="1577467742696" duration="2932000" />
     </task>
     <servers />
   </component>
@@ -171,42 +198,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576270151762">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state x="374" y="27" width="666" height="741" key="#FulhataSchool" timestamp="1577459973160">
+      <screen x="45" y="27" width="1321" height="741" />
+    </state>
+    <state x="374" y="27" width="666" height="741" key="#FulhataSchool/45.27.1321.741@45.27.1321.741" timestamp="1577459973160" />
+    <state x="301" y="58" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577468564884">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="299" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.27.1323.741@43.27.1323.741" timestamp="1576270151762" />
-    <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576270143916">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state x="301" y="58" width="873" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.27.1321.741@45.27.1321.741" timestamp="1577468564884" />
+    <state x="388" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577460174893">
+      <screen x="45" y="27" width="1321" height="741" />
+    </state>
+    <state x="388" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/45.27.1321.741@45.27.1321.741" timestamp="1577460174893" />
+    <state x="488" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577468559857">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="487" y="154" width="424" height="484" key="FileChooserDialogImpl/43.27.1323.741@43.27.1323.741" timestamp="1576270143916" />
-    <state width="873" height="175" key="GridCell.Tab.0.bottom" timestamp="1576275478042">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state x="488" y="154" width="424" height="484" key="FileChooserDialogImpl/45.27.1321.741@45.27.1321.741" timestamp="1577468559857" />
+    <state width="1275" height="175" key="GridCell.Tab.0.bottom" timestamp="1577470380568">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
     <state width="873" height="175" key="GridCell.Tab.0.bottom/43.27.1323.741@43.27.1323.741" timestamp="1576275478042" />
-    <state width="873" height="175" key="GridCell.Tab.0.center" timestamp="1576275478041">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.bottom/45.27.1321.741@45.27.1321.741" timestamp="1577470380568" />
+    <state width="1275" height="175" key="GridCell.Tab.0.center" timestamp="1577470380568">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.center/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
     <state width="873" height="175" key="GridCell.Tab.0.center/43.27.1323.741@43.27.1323.741" timestamp="1576275478041" />
-    <state width="873" height="175" key="GridCell.Tab.0.left" timestamp="1576275478041">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.center/45.27.1321.741@45.27.1321.741" timestamp="1577470380568" />
+    <state width="1275" height="175" key="GridCell.Tab.0.left" timestamp="1577470380567">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.left/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119349" />
     <state width="873" height="175" key="GridCell.Tab.0.left/43.27.1323.741@43.27.1323.741" timestamp="1576275478041" />
-    <state width="873" height="175" key="GridCell.Tab.0.right" timestamp="1576275478041">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.left/45.27.1321.741@45.27.1321.741" timestamp="1577470380567" />
+    <state width="1275" height="175" key="GridCell.Tab.0.right" timestamp="1577470380568">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state width="1277" height="175" key="GridCell.Tab.0.right/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576142119350" />
     <state width="873" height="175" key="GridCell.Tab.0.right/43.27.1323.741@43.27.1323.741" timestamp="1576275478041" />
-    <state x="193" y="31" key="SettingsEditor" timestamp="1576180776794">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.right/45.27.1321.741@45.27.1321.741" timestamp="1577470380568" />
+    <state x="195" y="31" key="SettingsEditor" timestamp="1577460020700">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="193" y="31" key="SettingsEditor/43.27.1323.741@43.27.1323.741" timestamp="1576180776794" />
-    <state x="360" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576274703183">
-      <screen x="43" y="27" width="1323" height="741" />
+    <state x="195" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1577460020700" />
+    <state x="362" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577467747486">
+      <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741/43.27.1323.741@43.27.1323.741" timestamp="1576141787963" />
     <state x="360" y="224" key="com.intellij.ide.util.TipDialog/43.27.1323.741@43.27.1323.741" timestamp="1576274703183" />
+    <state x="362" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1577467747486" />
   </component>
 </project>

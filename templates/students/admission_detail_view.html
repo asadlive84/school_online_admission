@@ -39,6 +39,7 @@
                     Approved by {{ object.admissionapproval.status_by.full_name }}
                     {% else %}
                     <a href="{% url 'student:admission_approval' object.pk %}">Needs Approval!!!</a>
+                     <a href="{% url 'student:student_update_view' object.pk %}">Need update??</a>
                     {% endif %}
 
 
@@ -84,7 +85,7 @@
                     <td>{{ object.std_id }}</td>
                   </tr>
                   <tr>
-                    <td>Name BN </td>
+                    <td>বাংলায় নাম </td>
                     <td>{{ object.full_name_bn }}</td>
                   </tr>
                   <tr>
@@ -108,7 +109,7 @@
                     <td>{{ object.blood_group }}</td>
                   </tr>
                   <tr>
-                    <td>Father's BN </td>
+                    <td>পিতার নাম </td>
                     <td>{{ object.father_name_bn }}</td>
                   </tr>
                   <tr>
@@ -116,7 +117,7 @@
                     <td>{{ object.father_name_en }}</td>
                   </tr>
                   <tr>
-                    <td>Mother's BN </td>
+                    <td>মাতার নাম </td>
                     <td>{{ object.mother_name_bn }}</td>
                   </tr>
                   <tr>

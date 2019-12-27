@@ -1,4 +1,4 @@
-#!/home/asad/PycharmProjects/FulhataSchool/venv/bin/python
+#!/home/asad/PycharmProjects/school_online_admission/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

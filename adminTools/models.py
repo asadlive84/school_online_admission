@@ -111,7 +111,7 @@ ADMISSION_STATUS = [
 class AdmissionApproval(models.Model):
     status = models.CharField("Admission Status", choices=ADMISSION_STATUS, default="P", max_length=1)
     student = models.OneToOneField("students.Student", on_delete=models.CASCADE)
-    status_by = models.ForeignKey(CustomUser, on_delete=models.CASCADE, editable=False)
+    status_by = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     message = models.CharField("Message", max_length=100, blank=True, null=True)
 
     created_at = models.DateTimeField(auto_now=True)
