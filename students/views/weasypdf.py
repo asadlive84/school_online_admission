@@ -28,7 +28,6 @@ from students.models import Student
 #     return response
 
 
-
 def student_admit_card_receipt(request, pk):
     std = Student.objects.get(pk=pk)
     school_info = SchoolInformation.objects.all().last()
@@ -36,7 +35,7 @@ def student_admit_card_receipt(request, pk):
         'std': std, 'school_info': school_info,
     }
     html_string = render_to_string('students/create/create_admission_pdf.html', context)
-    html = HTML(string=html_string, base_url=request.build_absolute_uri())
+    html = HTML(string=html_string, base_url=request.build_absolute_uri('/'))
     pdf = html.write_pdf(presentational_hints=True)
     response = HttpResponse(pdf, content_type='application/pdf')
     response['Content-Disposition'] = 'inline; filename="mypdf.pdf"'
