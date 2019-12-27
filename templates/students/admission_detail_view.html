@@ -34,7 +34,7 @@
                 <center class="m-t-30"> <img src="{{ object.photo.url }}" class="img-circle" width="150">
 
                     <h4 class="card-title m-t-10">{{ object.full_name_en }}</h4>
-
+ <a href="{% url 'student:student_update_view' object.pk %}">Need update??</a>
                      {% if object.admissionapproval.status == 'A' %}
                     Approved by {{ object.admissionapproval.status_by.full_name }}
                     {% else %}

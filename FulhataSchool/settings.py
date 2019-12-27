@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kzxi&ln8%a1m9wpw1g_^-&9tv)l%ax0^f7+ys@ka#+ly#i^5ev'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
@@ -134,3 +134,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/my-profile/'
 LOGOUT_REDIRECT_URL = '/user/login/'
+
+
+STATIC_ROOT = "127.0.0.1/static/"
