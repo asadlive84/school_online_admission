@@ -22,9 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kzxi&ln8%a1m9wpw1g_^-&9tv)l%ax0^f7+ys@ka#+ly#i^5ev'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['fssadmission.pythonanywhere.com']
+=======
+ALLOWED_HOSTS = ['127.0.0.1']
+>>>>>>> 8652fe102b957a7739d4ae8b758035e4fd229446
 
 # Application definition
 
@@ -105,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
@@ -135,3 +139,6 @@ STATIC_ROOT = "/home/fssadmission/school_online_admission/students/static/"
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/my-profile/'
 LOGOUT_REDIRECT_URL = '/user/login/'
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
