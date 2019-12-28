@@ -24,7 +24,7 @@ SECRET_KEY = 'kzxi&ln8%a1m9wpw1g_^-&9tv)l%ax0^f7+ys@ka#+ly#i^5ev'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fssadmission.pythonanywhere.com']
 
 # Application definition
 
@@ -128,8 +128,9 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Fulhata School/settings.py
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#MEDIA_ROOT = '/home/fssadmission/school_online_admission/static/'
+STATIC_ROOT = "/home/fssadmission/school_online_admission/students/static/"
 # demo_project/settings.py
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/my-profile/'

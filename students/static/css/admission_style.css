@@ -1,0 +1,14 @@
+.center-box{
+    position:absolute;
+    top:184px;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:99;
+    margin:auto;
+    height:200px;
+    width:200px;
+    border:1px solid #000;
+    text-align:center;
+    line-height:200px;
+}
