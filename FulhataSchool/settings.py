@@ -24,7 +24,7 @@ SECRET_KEY = 'kzxi&ln8%a1m9wpw1g_^-&9tv)l%ax0^f7+ys@ka#+ly#i^5ev'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'fssadmission.pythonanywhere.com', ]
 
 # Application definition
 
