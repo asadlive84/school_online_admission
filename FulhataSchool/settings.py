@@ -136,4 +136,4 @@ LOGIN_REDIRECT_URL = '/my-profile/'
 LOGOUT_REDIRECT_URL = '/user/login/'
 
 
-STATIC_ROOT = "127.0.0.1/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
