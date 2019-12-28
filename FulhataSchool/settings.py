@@ -26,6 +26,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'fssadmission.pythonanywhere.com', ]
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -128,8 +129,9 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Fulhata School/settings.py
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#MEDIA_ROOT = '/home/fssadmission/school_online_admission/static/'
+STATIC_ROOT = "/home/fssadmission/school_online_admission/students/static/"
 # demo_project/settings.py
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/my-profile/'
