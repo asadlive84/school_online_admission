@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Raleway&display=swap" rel="stylesheet">
     <style>
         .main_container{
-            border: 2px solid #000000;
+            border: 1px solid #000000;
             width: 95%;
             margin: 0px auto;
-            padding: 10px;
+            padding: 15px;
             margin-top: 0px;
         }
         .logo_pdf img{
@@ -52,6 +52,7 @@
           border: 1px solid #dddddd;
           text-align: left;
           padding: 8px;
+          font-size: 13px;
         }
 
         tr:nth-child(even) {
@@ -65,8 +66,8 @@ font-family: 'Kulim Park', sans-serif;
             position: absolute;
     transform: rotate(-90deg);
     margin-top: 316px;
-    margin-left: -112px;
-    font-size: 15px;
+    margin-left: -82px;
+    font-size: 12px;
         }
     </style>
 </head>
@@ -115,14 +116,15 @@ font-family: 'Kulim Park', sans-serif;
                     <td>Student ID</td>
                     <td>{{ object.std_id }}</td>
                   </tr>
-                   <tr>
-                    <td>Student Name [EN]</td>
-                    <td>{{ object.full_name_en }}</td>
-                  </tr>
+
                   <tr>
                     <td>Student Name [BN]</td>
                     <td>{{ object.full_name_bn }}</td>
 
+                  </tr>
+                  <tr>
+                    <td>Student Name [EN]</td>
+                    <td>{{ object.full_name_en }}</td>
                   </tr>
                   <tr>
                     <td>Father's Name [BN]</td>
@@ -130,7 +132,7 @@ font-family: 'Kulim Park', sans-serif;
 
                   </tr>
                   <tr>
-                    <td>Father's Name [BN]</td>
+                    <td>Father's Name [EN]</td>
                     <td>{{ object.father_name_en }}</td>
 
                   </tr>
@@ -145,6 +147,11 @@ font-family: 'Kulim Park', sans-serif;
 
                   </tr>
                   <tr>
+                    <td>Gender</td>
+                    <td>{{ object.get_gender_display }}</td>
+
+                  </tr>
+                  <tr>
                     <td>Blood Group</td>
                     <td>{{ object.blood_group }}</td>
 
@@ -156,7 +163,7 @@ font-family: 'Kulim Park', sans-serif;
                   </tr>
                   <tr>
                     <td>Date of Birth</td>
-                    <td>{{ object.date_of_birth }} [Age {{ object.calculate_age }} year's old]</td>
+                    <td>{{ object.date_of_birth }} [{{ object.calculate_age }} year's old][{{ object.findAge }}]</td>
 
                   </tr>
                     <tr>
@@ -237,7 +244,7 @@ font-family: 'Kulim Park', sans-serif;
                   <p style="text-align: center; padding-top: 20px">Guardian Sign</p>
               </div>
               <div class="col-sm-3">
-                   <p style="text-align: center; padding-top: 20px">Student's Sign</p>
+                   <p style="text-align: center; padding-top: 20px">Applicant's Signature</p>
               </div>
                <div class="col-sm-3">
                   <p style="text-align: center; padding-top: 20px">Office Sign</p>
@@ -252,7 +259,7 @@ font-family: 'Kulim Park', sans-serif;
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                    <p style="margin: 0 auto; width: 100%">------------------------------------------------------------------------------------------------------------------------------------------------</p>
                 </div>
             </div>
         </div>
@@ -277,7 +284,12 @@ font-family: 'Kulim Park', sans-serif;
                                 <h3 class="logo_title_h3">Class {{ object.class_name.class_name }} Admission {{ object.academic_session.sec_session }}</h3>
 
                               {% endif %}
-                             <h4 class="logo_title_h3">Applicant's [{{ object.full_name_en }}] Copy [Admit Card] </h4>
+                          {% if object.class_name.class_name_numeric == 6 %}
+                           <h4 class="logo_title_h3">Applicant's [{{ object.full_name_en }}] Copy [Admit Card] </h4>
+                          {% else %}
+                           <h4 class="logo_title_h3">Applicant's [{{ object.full_name_en }}] Copy </h4>
+                          {% endif %}
+
                           </div>
                       </div>
                   </div>
@@ -300,14 +312,15 @@ font-family: 'Kulim Park', sans-serif;
                         <td>Student ID</td>
                         <td>{{ object.std_id }}</td>
                       </tr>
-                       <tr>
-                        <td>Student Name [EN]</td>
-                        <td>{{ object.full_name_en }}</td>
-                      </tr>
+
                       <tr>
                         <td>Student Name [BN]</td>
                         <td>{{ object.full_name_bn }}</td>
 
+                      </tr>
+                       <tr>
+                        <td>Student Name [EN]</td>
+                        <td>{{ object.full_name_en }}</td>
                       </tr>
                       <tr>
                         <td>Father's Name [BN]</td>
@@ -315,7 +328,7 @@ font-family: 'Kulim Park', sans-serif;
 
                       </tr>
                       <tr>
-                        <td>Father's Name [BN]</td>
+                        <td>Father's Name [EN]</td>
                         <td>{{ object.father_name_en }}</td>
 
                       </tr>
@@ -329,6 +342,11 @@ font-family: 'Kulim Park', sans-serif;
                         <td>{{ object.mother_name_en }}</td>
 
                       </tr>
+                      <tr>
+                    <td>Gender</td>
+                    <td>{{ object.get_gender_display }}</td>
+
+                  </tr>
 
                       <tr>
                         <td>Religion</td>
@@ -337,7 +355,7 @@ font-family: 'Kulim Park', sans-serif;
                       </tr>
                       <tr>
                         <td>Date of Birth</td>
-                        <td>{{ object.date_of_birth }} [Age {{ object.calculate_age }} year's old]</td>
+                        <td>{{ object.date_of_birth }} [{{ object.calculate_age }} year's old][{{ object.findAge }}]</td>
 
                       </tr>
                         <tr>
@@ -395,11 +413,7 @@ font-family: 'Kulim Park', sans-serif;
                         <td>{{ object.zilla }}</td>
 
                       </tr>
-                      <tr>
-                        <td>Created</td>
-                        <td>{{ object.created_by }} {{ object.created_at }}</td>
 
-                      </tr>
                       <tr>
                         <td>Print</td>
                         <td>{{ printtime}} </td>
@@ -415,13 +429,13 @@ font-family: 'Kulim Park', sans-serif;
               <div class="row" style="padding-bottom: 30px">
 
                   <div class="col-sm-3">
-                      <p style="text-align: center; padding-top: 20px">Guardian Sign</p>
+                      <p style="text-align: center; padding-top: 20px">Guardian Signature</p>
                   </div>
                   <div class="col-sm-3">
-                       <p style="text-align: center; padding-top: 20px">Student's Sign</p>
+                       <p style="text-align: center; padding-top: 20px">Applicant's Signature</p>
                   </div>
                    <div class="col-sm-3">
-                      <p style="text-align: center; padding-top: 20px">Office Sign</p>
+                      <p style="text-align: center; padding-top: 20px">Office Signature</p>
                   </div>
                    <div class="col-sm-3">
                      <p style="text-align: center; padding-top: 20px">Head Teacher</p>

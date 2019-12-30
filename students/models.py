@@ -92,6 +92,37 @@ class Student(models.Model):
     def get_absolute_url(self):
         return reverse('student:admission_detail', args=[str(self.id)])
 
+    # Python program to calculate range
+
+    def findAge(self):
+        today = date.today()
+        current_date = date.today()
+        current_year = int(date.today().year)
+        current_month = int(date.today().month)
+        birth_date = self.date_of_birth.day
+        birth_month = int(self.date_of_birth.month)
+        birth_year = int(self.date_of_birth.year)
+
+        month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+        if birth_date > current_date.month:
+            current_month = today.month - 1
+            current_date = (today.day + month[birth_month - 1])
+        else:
+            current_date = current_date.day
+        if birth_month > current_month:
+            current_year = current_year - 1
+            current_month = current_month + 12
+
+        # calculate date, month, year
+        print(f"XXXX {current_date} - - {birth_date}")
+        calculated_date = current_date - birth_date
+        calculated_month = current_month - birth_month
+        calculated_year = current_year - birth_year
+
+        # print present age
+        return f"Year:{calculated_year}, Month:{calculated_month}, Days:{calculated_date}"
+
     def calculate_age(self):
         today = date.today()
-        return today.year - self.date_of_birth.year - ((today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day))
+        return today.year - self.date_of_birth.year - (
+                    (today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day))

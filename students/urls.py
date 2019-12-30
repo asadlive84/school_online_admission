@@ -36,4 +36,5 @@ urlpatterns = [
     path('student_view/<int:pk>/', update.StudentUpdateView.as_view(), name="student_update_view"),
     path("admission-card/<int:pk>/", create_html_pdf.StudentAdmissionPdf.as_view(), name="student_pdf"),
     path('barcode/', std_barcode.barcode, name="barcode"),
+    path('search-bar/', views.search_bar, name="search_bar"),
 ]

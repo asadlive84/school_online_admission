@@ -1,7 +1,9 @@
 from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMixin
 from django.core.paginator import Paginator
-from django.http import HttpResponseRedirect
+from django.db.models import Q
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
+from django.template import loader, Context
 from django.urls import reverse, reverse_lazy
 from django.views import generic
 from students.models import Student
@@ -48,3 +50,11 @@ class AdmissionDetailView(PermissionRequiredMixin, generic.DetailView):
 
 class NoPermissionError(generic.TemplateView):
     template_name = "students/no_permission_error.html"
+
+
+def search_bar(request):
+    std=''
+    objects = request.POST.get("std_query")
+    std = Student.objects.filter(Q(full_name_en__icontains=objects)|
+                                 Q(full_name_bn__icontains=objects))
+    return render(request, 'students/std_search_results.html', {'objects': std, })

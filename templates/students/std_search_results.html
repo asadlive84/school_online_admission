@@ -1,0 +1,47 @@
+
+
+{% extends "students/base.html" %}
+
+
+{% block page_upper %}
+
+{% endblock %}
+
+
+
+{% block content %}
+
+
+
+    <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-block">
+
+                                <h4 class="card-title">Search results</h4>
+                                {% if objects %}
+                                    {% for object in objects %}
+                                <div>
+                                    <div class="name_list">
+                                        <p>EN: <a href="{% url 'student:admission_detail' object.id %}">{{ object.full_name_bn }} BN:{{ object.full_name_en }} {{ object.std_id }}</a>{% if object.admissionapproval.status == 'A' %}
+                                            <button type="button" class="btn btn-success">Approved</button>
+                                           {% elif object.admissionapproval.status == 'P'   %}
+                                               <button type="button" class="btn btn-danger">Danger</button>
+                                        {% endif %}</p>
+                                        <p>Father's:{{ object.father_name_en }}, Mother's: {{ object.mother_name_en }}, class {{ object.class_name }}</p>
+
+                                    </div>
+                                </div>
+                                        <hr>
+                                {% endfor %}
+                                {% else %}
+                                 <p>no found any students</p>
+                                {% endif %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+{% endblock %}

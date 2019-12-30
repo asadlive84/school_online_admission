@@ -36,7 +36,7 @@
                 <center class="m-t-30"> <img src="{{ object.photo.url }}" class="img-circle" width="150">
 
                     <h4 class="card-title m-t-10">{{ object.full_name_en }}</h4>
- <a href="{% url 'student:student_update_view' object.pk %}">Need update??</a>
+
                      {% if object.admissionapproval.status == 'A' %}
                     Approved by {{ object.admissionapproval.status_by.full_name }}
                     {% else %}
@@ -96,7 +96,7 @@
                   </tr>
                   <tr>
                     <td>DOB</td>
-                    <td>{{ object.date_of_birth }} - {{ object.calculate_age }} year's old</td>
+                    <td>{{ object.date_of_birth }} {{ object.findAge }} - {{ object.calculate_age }} year's old</td>
                   </tr>
                   <tr>
                     <td>Religion </td>

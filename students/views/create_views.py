@@ -1,5 +1,6 @@
+from django.contrib import messages
 from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMixin
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, request, HttpResponse
 from django.urls import reverse_lazy, reverse
 from django.views import generic
 
@@ -10,7 +11,8 @@ from students.models import Student
 
 import re
 
-regexFormat = re.compile(r'(^[0]{1,1})(\d{2})(\d{2})(\d{6})')
+phone_regex_pattern = '(^[01]{1,2})([13456789]{1})(\d{2})(\d{6})$'
+
 
 class AdmissionCreateView(PermissionRequiredMixin, generic.CreateView):
     model = Student
@@ -20,10 +22,19 @@ class AdmissionCreateView(PermissionRequiredMixin, generic.CreateView):
     permission_required = ("students.add_student",)
 
     def form_valid(self, form):
-        self.object = form.save(commit=False)
-        self.object.created_by = self.request.user
-        self.object.save()
-        return HttpResponseRedirect(reverse("student:admission_detail", args=[str(self.object.id)]))
+        phone_number = form['mobile_number'].value()
+        phone_regex_match = re.match(phone_regex_pattern, phone_number)
+        if phone_regex_match:
+
+            self.object = form.save(commit=False)
+            self.object.created_by = self.request.user
+            self.object.mobile_number = int(phone_regex_match[0])
+
+            self.object.save()
+            return HttpResponseRedirect(reverse("student:admission_detail", args=[str(self.object.id)]))
+        messages.info(self.request, 'Wrong Phone number.')
+        #return HttpResponseRedirect(reverse("student:admission_create", ))
+        return HttpResponse("Wrong Phone number")
 
     def get_initial(self, *args, **kwargs):
         initial = super(AdmissionCreateView, self).get_initial(**kwargs)
