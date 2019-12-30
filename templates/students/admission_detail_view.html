@@ -11,8 +11,10 @@
         </ol>
 </div>
 <div class="col-md-6 col-4 align-self-center">
+
      {% if object.admissionapproval.status == 'A' %}
-         <a href="{% url "student:admission_pdf_create" object.id %}" class="btn pull-right hidden-sm-down btn-success">Download</a>
+{#         <a href="{% url "student:admission_pdf_create" object.id %}" class="btn pull-right hidden-sm-down btn-success">Download</a>#}
+         <a target="_blank" href="{% url 'student:student_pdf'  object.id %}" class="btn pull-right hidden-sm-down btn-success">Admission Copy Download</a>
      {% endif %}
 </div>
 

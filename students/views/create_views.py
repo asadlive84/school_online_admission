@@ -8,12 +8,15 @@ from adminTools.models import BloodGroup, SchoolClass, StudentGroup, AcademicSec
 from students.forms import StudentFrom, SchoolInfoFormCrateView, AdmissionApprovalStatusForm
 from students.models import Student
 
+import re
+
+regexFormat = re.compile(r'(^[0]{1,1})(\d{2})(\d{2})(\d{6})')
 
 class AdmissionCreateView(PermissionRequiredMixin, generic.CreateView):
     model = Student
     form_class = StudentFrom
     template_name = "students/create/admission_create.html"
-    #permission_denied_message = "You dont have access"
+    # permission_denied_message = "You dont have access"
     permission_required = ("students.add_student",)
 
     def form_valid(self, form):
@@ -46,7 +49,7 @@ class ClassCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_std_class.html"
     success_url = reverse_lazy('student:class_create')
-    permission_required = ("students.add_schoolclass", )
+    permission_required = ("students.add_schoolclass",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -59,7 +62,7 @@ class DepartmentCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_std_group.html"
     success_url = reverse_lazy('student:department_create')
-    permission_required = ("students.add_studentgroup", )
+    permission_required = ("students.add_studentgroup",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -72,7 +75,7 @@ class SectionCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_academic_section.html"
     success_url = reverse_lazy('student:section_create')
-    permission_required = ("students.add_academicsession", )
+    permission_required = ("students.add_academicsession",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -85,7 +88,7 @@ class SessionCreateView(PermissionRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_academic_session.html"
     success_url = reverse_lazy('student:session_create')
-    permission_required = ("students.add_academicsection", )
+    permission_required = ("students.add_academicsection",)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -137,7 +140,6 @@ class WordCreateView(LoginRequiredMixin, generic.CreateView):
     fields = "__all__"
     template_name = "students/create/create_word.html"
     success_url = reverse_lazy('student:word_create')
-
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)

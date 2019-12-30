@@ -31,7 +31,7 @@ class AcademicSession(models.Model):
     year = models.PositiveIntegerField(unique=True)
 
     def __str__(self):
-        return f'{self.year} - {self.year + 1}'
+        return f'{self.year}'
 
     def jr_session(self):
         return f'{self.year}'

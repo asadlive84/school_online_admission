@@ -1,8 +1,9 @@
 from django.urls import path
-from students.views import views, update
+from students.views import views, update, std_barcode
 from students.views import create_views
 from students.views import weasypdf
 from students.views import create_pdf_admission
+from students.views import create_html_pdf
 
 # from wkhtmltopdf.views import PDFTemplateView
 
@@ -33,4 +34,6 @@ urlpatterns = [
     path("my-profile/", views.UserProfileView.as_view(), name="my_profile"),
     path("no-permission-error/", views.NoPermissionError.as_view(), name="no_permission_error"),
     path('student_view/<int:pk>/', update.StudentUpdateView.as_view(), name="student_update_view"),
+    path("admission-card/<int:pk>/", create_html_pdf.StudentAdmissionPdf.as_view(), name="student_pdf"),
+    path('barcode/', std_barcode.barcode, name="barcode"),
 ]

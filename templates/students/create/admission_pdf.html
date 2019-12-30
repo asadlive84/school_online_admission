@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ object.full_name_en }}- {{ object.std_id }}</title>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Raleway&display=swap" rel="stylesheet">
+    <style>
+        .main_container{
+            border: 2px solid #000000;
+            width: 95%;
+            margin: 0px auto;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        .logo_pdf img{
+            width: 150px;
+            height: 160px;
+
+        }
+        .logo_title{
+            font-size: 25px;
+            font-weight: 600;
+            text-align: left;
+            margin-left: -10px;
+        }
+        .logo_text{
+            font-size: 15px;
+            font-weight: 200;
+            text-align: left;
+            margin-left: -12px;
+        }
+        .logo_title_h3{
+            font-size: 18px;
+            font-weight: 600;
+            text-align: left;
+            margin-left: -12px;
+        }
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        body, p,h1,h2,h3,h4,h5,td,th{
+
+font-family: 'Kulim Park', sans-serif;
+        }
+        #asad{
+            position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 316px;
+    margin-left: -112px;
+    font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main_container">
+    <p id="asad">Software Developed: Asaduzzaman Sohel</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9">
+              <div>
+                  <div class="row">
+                      <div class="col-sm-3 logo_pdf">
+                          <img src="{{ school.logo.url }}" alt="">
+                      </div>
+                      <div class="col-sm-9">
+                          <h1 class="logo_title">{{ school.name }}</h1>
+                          <p style="margin-top: -10px" class="logo_text">{{ school.description }}</p>
+                          <p style="margin-top: -20px" class="logo_text"> {{ school.contact }}</p>
+                          {% if object.class_name.class_name_numeric <= 8 %}
+                           <h3 style="margin-top: -15px" class="logo_title_h3">Class {{ object.class_name.class_name }} Admission {{ object.academic_session.jr_session }}</h3>
+                           {% elif object.class_name.class_name >= 9 %}
+                            <h3 class="logo_title_h3">Class {{ object.class_name.class_name }} Admission {{ object.academic_session.sec_session }}</h3>
+
+                          {% endif %}
+                         <h4 class="logo_title_h3">Office Copy [{{ object.full_name_en }}] </h4>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-3 other">
+               {% if object.photo %}
+                  <div class="std_img" style="text-align: right">
+                   <img style="width: 150px; height: 150px; text-align: center" src="{{ object.photo.url }}" alt="">
+                  </div>
+                {% endif %}
+              <p style="text-align: right; margin-top: -20px">{{ object.full_name_en }} {{ object.std_id }}</p>
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-sm-6">
+                 <table >
+                <tbody>
+
+                  <tr>
+                    <td>Student ID</td>
+                    <td>{{ object.std_id }}</td>
+                  </tr>
+                   <tr>
+                    <td>Student Name [EN]</td>
+                    <td>{{ object.full_name_en }}</td>
+                  </tr>
+                  <tr>
+                    <td>Student Name [BN]</td>
+                    <td>{{ object.full_name_bn }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Father's Name [BN]</td>
+                    <td>{{ object.father_name_bn }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Father's Name [BN]</td>
+                    <td>{{ object.father_name_en }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Mother's Name [BN]</td>
+                    <td>{{ object.mother_name_bn }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Mother's Name [EN]</td>
+                    <td>{{ object.mother_name_en }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Blood Group</td>
+                    <td>{{ object.blood_group }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Religion</td>
+                    <td>{{ object.get_religion_display }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Date of Birth</td>
+                    <td>{{ object.date_of_birth }} [Age {{ object.calculate_age }} year's old]</td>
+
+                  </tr>
+                    <tr>
+                    <td>Mobile Number</td>
+                    <td>0{{ object.mobile_number }}
+                        {% if object.optional_mobile_number %}
+                        | 0{{ object.optional_mobile_number }}
+                        {% endif %}
+                    </td>
+
+                  </tr>
+
+                </tbody>
+              </table>
+             </div>
+              <div class="col-sm-6">
+                 <table >
+                <tbody>
+
+                  <tr>
+                    <td>Student Class</td>
+                    <td>{{ object.class_name.class_name }}</td>
+                  </tr>
+                   <tr>
+                    <td>Group</td>
+                    <td>{{ object.std_group.group_name }}</td>
+                  </tr>
+                  <tr>
+                    <td>Section</td>
+                    <td>{{ object.academic_section }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Session</td>
+                    <td>
+                        {% if object.class_name.class_name_numeric <= 8 %}
+                        {{ object.academic_session.jr_session }}
+                        {% elif object.class_name.class_name_numeric >= 9 %}
+                         {{ object.academic_session.sec_session }}
+                        {% endif %}
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td>{{ object.word_no }}
+                         {% if object.address_opt %}
+                          - {{ object.address_opt }}
+                        {% endif %}
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>District</td>
+                    <td>{{ object.zilla }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Created</td>
+                    <td>{{ object.created_by }} {{ object.created_at }}</td>
+
+                  </tr>
+                  <tr>
+                    <td>Print</td>
+                    <td>{{ printtime}} </td>
+
+                  </tr>
+
+
+                </tbody>
+              </table>
+             </div>
+          </div>
+
+          <div class="row" style="padding-bottom: 30px">
+
+              <div class="col-sm-3">
+                  <p style="text-align: center; padding-top: 20px">Guardian Sign</p>
+              </div>
+              <div class="col-sm-3">
+                   <p style="text-align: center; padding-top: 20px">Student's Sign</p>
+              </div>
+               <div class="col-sm-3">
+                  <p style="text-align: center; padding-top: 20px">Office Sign</p>
+              </div>
+               <div class="col-sm-3">
+                 <p style="text-align: center; padding-top: 20px">Head Teacher</p>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+     <p id="asad">Software Developed: Asaduzzaman Sohel</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-9">
+                  <div>
+                      <div class="row">
+                          <div class="col-sm-3 logo_pdf">
+                              <img src="{{ school.logo.url }}" alt="">
+                          </div>
+                          <div class="col-sm-9">
+                              <h1 class="logo_title">{{ school.name }}</h1>
+                              <p style="margin-top: -10px" class="logo_text">{{ school.description }}</p>
+                              <p style="margin-top: -20px" class="logo_text"> {{ school.contact }}</p>
+                              {% if object.class_name.class_name_numeric <= 8 %}
+                               <h3 style="margin-top: -15px" class="logo_title_h3">Class {{ object.class_name.class_name }} Admission {{ object.academic_session.jr_session }}</h3>
+                               {% elif object.class_name.class_name >= 9 %}
+                                <h3 class="logo_title_h3">Class {{ object.class_name.class_name }} Admission {{ object.academic_session.sec_session }}</h3>
+
+                              {% endif %}
+                             <h4 class="logo_title_h3">Applicant's [{{ object.full_name_en }}] Copy [Admit Card] </h4>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 other">
+                   {% if object.photo %}
+                      <div class="std_img" style="text-align: right">
+                       <img style="width: 150px; height: 150px; text-align: center" src="{{ object.photo.url }}" alt="">
+                      </div>
+                    {% endif %}
+                  <p style="text-align: right; margin-top: -20px">{{ object.full_name_en }} {{ object.std_id }}</p>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-6">
+                     <table >
+                    <tbody>
+
+                      <tr>
+                        <td>Student ID</td>
+                        <td>{{ object.std_id }}</td>
+                      </tr>
+                       <tr>
+                        <td>Student Name [EN]</td>
+                        <td>{{ object.full_name_en }}</td>
+                      </tr>
+                      <tr>
+                        <td>Student Name [BN]</td>
+                        <td>{{ object.full_name_bn }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Father's Name [BN]</td>
+                        <td>{{ object.father_name_bn }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Father's Name [BN]</td>
+                        <td>{{ object.father_name_en }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Mother's Name [BN]</td>
+                        <td>{{ object.mother_name_bn }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Mother's Name [EN]</td>
+                        <td>{{ object.mother_name_en }}</td>
+
+                      </tr>
+
+                      <tr>
+                        <td>Religion</td>
+                        <td>{{ object.get_religion_display }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Date of Birth</td>
+                        <td>{{ object.date_of_birth }} [Age {{ object.calculate_age }} year's old]</td>
+
+                      </tr>
+                        <tr>
+                        <td>Mobile Number</td>
+                        <td>0{{ object.mobile_number }}
+                            {% if object.optional_mobile_number %}
+                            | 0{{ object.optional_mobile_number }}
+                            {% endif %}
+                        </td>
+
+                      </tr>
+
+                    </tbody>
+                  </table>
+                 </div>
+                  <div class="col-sm-6">
+                     <table >
+                    <tbody>
+
+                      <tr>
+                        <td>Student Class</td>
+                        <td>{{ object.class_name.class_name }}</td>
+                      </tr>
+                       <tr>
+                        <td>Group</td>
+                        <td>{{ object.std_group.group_name }}</td>
+                      </tr>
+                      <tr>
+                        <td>Section</td>
+                        <td>{{ object.academic_section }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Session</td>
+                        <td>
+                            {% if object.class_name.class_name_numeric <= 8 %}
+                            {{ object.academic_session.jr_session }}
+                            {% elif object.class_name.class_name_numeric >= 9 %}
+                             {{ object.academic_session.sec_session }}
+                            {% endif %}
+                        </td>
+
+                      </tr>
+                      <tr>
+                        <td>Address</td>
+                        <td>{{ object.word_no }}
+                             {% if object.address_opt %}
+                              - {{ object.address_opt }}
+                            {% endif %}
+                        </td>
+
+                      </tr>
+                      <tr>
+                        <td>District</td>
+                        <td>{{ object.zilla }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Created</td>
+                        <td>{{ object.created_by }} {{ object.created_at }}</td>
+
+                      </tr>
+                      <tr>
+                        <td>Print</td>
+                        <td>{{ printtime}} </td>
+
+                      </tr>
+
+
+                    </tbody>
+                  </table>
+                 </div>
+              </div>
+
+              <div class="row" style="padding-bottom: 30px">
+
+                  <div class="col-sm-3">
+                      <p style="text-align: center; padding-top: 20px">Guardian Sign</p>
+                  </div>
+                  <div class="col-sm-3">
+                       <p style="text-align: center; padding-top: 20px">Student's Sign</p>
+                  </div>
+                   <div class="col-sm-3">
+                      <p style="text-align: center; padding-top: 20px">Office Sign</p>
+                  </div>
+                   <div class="col-sm-3">
+                     <p style="text-align: center; padding-top: 20px">Head Teacher</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+</body>
+</html>
